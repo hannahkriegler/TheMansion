@@ -4,7 +4,7 @@ using System.Collections;
 public class Hitregistration : MonoBehaviour {
 
     /* Zur Nutzung dieses Scripts: 
-     * Hier wird davon ausgegangen, dass der Name des Scripts in den Geistern "Move" heißt. Des weiteren gehe ich davon aus, dass jeder Geist den Tag "Ghost" besitzt.
+     * Hier wird davon ausgegangen, dass der Name des Scripts in den Geistern "Move" und die Bewegungsflag "seen" heißt. Des weiteren gehe ich davon aus, dass jeder Geist den Tag "Ghost" besitzt.
      * Falls dem nicht so ist sollte dies im Code angepasst werden.
      */
    // Hierbei handelt es sich um die Taschenlampe des Spielers. Da es eine public Variable ist bitte in Unity reinziehen.
