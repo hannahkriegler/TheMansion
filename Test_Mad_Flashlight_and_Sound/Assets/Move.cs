@@ -5,7 +5,7 @@ public class Move : MonoBehaviour {
     public Camera cam;
     public Light Flashlight;
     public float speed = 0.05f;
-    private bool seen = false;
+    public bool seen = false;
 
 	// Use this for initialization
 	void Start () {
@@ -19,17 +19,6 @@ public class Move : MonoBehaviour {
             transform.Translate(0, 0, 0.05f);
         }
 
-        RaycastHit hit;
-        if (Physics.Raycast(cam.transform.position, cam.transform.forward, out hit) && Flashlight.enabled)
-        {
-            if (hit.collider.tag == "Ghost")
-            {
-                seen = true;
-            }
-        } else
-        {
-            seen = false;
-        }
 
 
 
