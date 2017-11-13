@@ -267,13 +267,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="TheMansion.Plugins.csproj">
-      <Project>{047A1756-1175-2FA1-A8EC-B92EE1756238}</Project>
-      <Name>TheMansion.Plugins</Name>
-    </ProjectReference>
     <ProjectReference Include="TheMansion.csproj">
       <Project>{FA77F1BA-6188-E07F-4CE5-1ABDEA356799}</Project>
       <Name>TheMansion</Name>
+    </ProjectReference>
+    <ProjectReference Include="TheMansion.Plugins.csproj">
+      <Project>{047A1756-1175-2FA1-A8EC-B92EE1756238}</Project>
+      <Name>TheMansion.Plugins</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
