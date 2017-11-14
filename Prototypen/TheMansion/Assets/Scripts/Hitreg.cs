@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class Hitregistration : MonoBehaviour
+public class Hitreg : MonoBehaviour
 {
 
     /* Zur Nutzung dieses Scripts: 
@@ -16,6 +16,7 @@ public class Hitregistration : MonoBehaviour
     // Use this for initialization
     void Start()
     {
+        //flashlight = GameObject.FindGameObjectWithTag("Flaschenlampe") as Light;
         scripts = new ArrayList();
         targets = GameObject.FindGameObjectsWithTag("Ghost");
         foreach (GameObject o in targets)
